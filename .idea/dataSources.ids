@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - Users@localhost" uuid="83dabbbe-d556-4836-acde-d5659f6ef652">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+    <schema name="" catalog="Users"/>
+    <table name="USERS" schema="" catalog="Users" type="TABLE">
+      <column name="Name" sqlType="VARCHAR" precision="30" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Password" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="Name"/>
+      <index name="unique_Name" unique="true" columns="Name"/>
+    </table>
+  </data-source>
+</component>
